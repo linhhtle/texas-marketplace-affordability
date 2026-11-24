@@ -8,8 +8,13 @@ Examine insurance affordability and coverage differences in the Texas Marketplac
 ## Data and approach
 The academic analysis uses CMS Marketplace rate and benefits data. SQL in BigQuery supports data profiling, missing-value checks, cleaning and integration of rate and benefits tables.
 
+## Questions explored
+
+- How do premiums and out-of-pocket costs vary across Marketplace plans?
+- How can rate and benefit records be joined to compare plan affordability and coverage on a consistent basis?
+
 ## Explore the analysis
-- [Project notebook](B06%20Health%20Insurance%20Affordability%20%26%20Coverage%20Fairness%202015_2016%20TEXAS%20Marketplace%20%281%29.ipynb)
+- [Project notebook](notebooks/texas-marketplace-affordability.ipynb)
 
 ## Interpretation and reproduction
 The project illustrates how insurance data can support affordability and coverage analysis. Consult the notebook for exact definitions, findings, source data and queries. Results describe the historical Texas Marketplace and should not be generalized to present-day coverage or treated as causal evidence.
